@@ -1,0 +1,411 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+} */
+
+
+
+.navbar {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 20px;
+ background-color: white;
+ color:  #333;;
+}
+
+.logo{
+  font-size: 1.5rem;
+  padding-left: 40px;
+}
+
+.back-img{
+    display: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    padding-right: 150px;
+}
+
+.nav-links li{
+    margin: 0 30px;
+    font-size: 1.05rem;
+    
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #777575;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.home{color: solid #219c90;
+border-bottom: 3px solid #219c90;
+cursor: pointer;}
+    
+
+/* .hover-effect:hover{
+    color: green;
+} */
+
+.nav-links a:hover{
+    color: #219c90;
+}
+
+.about-dropdown {
+    position: relative;
+}
+
+.solution-label{
+    cursor: pointer;
+    color: #777575;
+}
+
+/* label{
+    margin-right: 5px;
+    cursor: pointer;
+} */
+
+.solution-label:hover{
+    color: #219c90;
+}
+
+/* .solution-dropdown:hover{
+    color: darkgreen;
+} */
+
+.solution-dropdown{
+    position: relative;
+}
+
+
+.about-dropdown{
+    position: relative;
+}
+
+/* .select-box{
+    position: absolute;
+    left: 63%;
+    padding: 5px;
+    display: block;
+    background-color: #219c90;
+    width: 140px;
+    height: relative;
+    border: 1px solid #219c90 ;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    line-height: 40px;
+    text-decoration: underline;
+    position: fixed;
+    color: white;
+} */
+
+
+
+
+
+    .select-box{
+        position: absolute;
+        left: 44% ;
+        transform: translate(35%);
+        width: 158px;
+        background-color: #219c90;
+        justify-content: center;
+        color: white;
+        font-size: 15px;
+        padding-left: 7px;
+        padding-right: 7px;
+        padding-top: 10px;
+        padding-bottom: 25px;
+        margin-top: 13px;
+        border: 1px solid #219c90 ;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        line-height: 50px;
+        text-align: left;
+        list-style: none;
+
+        
+}
+
+
+
+
+.hamburger {
+    cursor: pointer;
+    display: none;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.mobile-menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    z-index: 1;
+}
+
+.Time-med .img-time{
+    width: 95rem;
+    height: 60rem;
+    margin-top: -13px;
+    display: flex;
+}
+
+.Time-med .back-img{display: none;
+
+}
+
+
+.Time-caption{
+    display: flex;
+    position: absolute;
+    top: 450px;
+    bottom: 40px;
+    left: 125px;
+    right: -100px;
+    color: white;
+
+}
+
+.socrates{
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding-top: 10px;
+    color:  black;
+    padding-left: 73px;
+    position: absolute;
+    top: 185%;
+
+}
+
+.plato img{
+    width: 37rem;
+    height: 28rem;
+    margin-top: 90px ;
+    margin-left: 73px;
+}
+
+.dedicate{
+    font-size: 1.00rem;
+    display: flex;
+    position: absolute;
+    left: 695px;
+    top: 194%;
+    color: rgb(41, 32, 32);
+    font-weight: lighter;
+
+}
+
+.founder-div{
+    background-color: rgba(212, 210, 210, 0.493);
+    padding: 50px;
+    border: 0 transparent;
+    margin: 150px;
+
+}
+
+.founder-text{
+    font-size: 1.46rem;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.founder-name{
+    position: relative;
+    left: 560px;
+    top: 65px;
+    font-size: 1.18rem;
+    font-weight: 3300;
+
+}
+
+.founder{
+    font-weight: lighter;
+    position: relative;
+    left: 560px;
+    top: 18px;
+}
+
+
+.stubborn{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: -54px;
+    margin-left: -60px;
+}
+.coin{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: -49px;
+    margin-right: -28px;
+
+
+    
+    
+}
+
+.first-part{
+    width: 242px;
+    display: flex;
+    /* flex-direction: row; */
+    border-radius: 0px;
+    overflow: hidden;
+    box-shadow: 0px;
+    margin: 20px;
+    
+}
+
+.Empowering{padding: 16px;}
+
+.Empowering h3{
+    font-weight: 600;
+    font-size: 21px;
+}
+
+.Empowering .chronic{
+    
+    font-size: 15.5px;
+    font-weight: lighter;
+    padding-top: -40px;
+    margin-top: -14px;
+    
+}
+
+.Empowering .more{
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin-top: 16px;
+    color: #777575;
+    margin-left: -14px;
+    font-size: 15px;
+}
+/* 
+.second-part{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.third-part{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.fourth-part{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.first-part{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+ */
+
+
+@media only screen and (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+
+    .nav-links {
+      display: none;
+    }
+    .Time-med .img-time{
+        width: 95rem;
+        height: 60rem;
+        margin-top: -13px;
+        display: none;
+    }
+
+    
+    .Time-med .back-img{display: flex;
+        position: absolute;
+        margin-top: -15px;
+        margin-left: -59px;
+    
+    }
+
+    .Time-caption{
+        position: absolute;
+        margin-top: -265px;
+        margin-left: -92px;
+        font-size: 7px;
+        /* line-height: 1; */
+        /* font-weight: 300; */
+        
+
+        
+    
+    }
+    
+    .socrates{
+        
+        position: absolute;
+        margin-top: -673px;
+        margin-left: -58px;
+        font-size: 15px;
+    
+    }
+    
+    .plato img{
+        width: 26rem;
+        height: 23rem;
+        margin-top: 345px ;
+        margin-left: 15px;
+    }
+    .dedicate{
+        font-size: 0.93rem;
+        display: flex;
+        position: absolute;
+        width: 32rem;
+        height: auto;
+        margin-left: -680px;
+        margin-top: -279px;
+
+
+        
+    
+    }
+    
+    
+}
+
+
+
+    
+  
+  
+
+/* .img-time{
+    display: none;
+} */
+
+
