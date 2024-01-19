@@ -21,10 +21,10 @@ const Philosophy = () => {
              <br/>  and improve patient outcomes. Our innovative and user-friendly  
              <br/>  technologies are designed to streamline health workflows, reduce
              <br/> administrative burden and enhance communication between health care
-             <br/>  providers and their patients. 
-             <br></br>
+             <br/>  providers and their patients.
              
              
+        
              <br/>  <br/>We offer a wide range of digital health solutions that are tailored to meet the  
              <br/> unique needs of health care providers. In addition, our solutions are designed             
             <br/>  to help individuals take control of their health by providing them with the                                           
